@@ -1,20 +1,113 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# TaskMaster - Project & Task Manager
 
-# Run and deploy your AI Studio app
+## Overview
 
-This contains everything you need to run your app locally.
+TaskMaster is a full-stack Project and Task Management application that helps users organize projects, manage tasks, track progress, and monitor deadlines efficiently.
 
-View your app in AI Studio: https://ai.studio/apps/cf4cc687-92f3-4374-975c-ab656d3b1fc2
+The application provides OTP-based authentication, project management, task tracking, progress monitoring, and a clean user interface.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## Features
 
+### Authentication
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* OTP-based Login
+* User Verification
+* Session Management
+
+### Project Management
+
+* Create Projects
+* View Projects
+* Project Dashboard
+* Project Progress Tracking
+
+### Task Management
+
+* Create Tasks
+* Mark Tasks as Complete/Incomplete
+* Delete Tasks
+* Due Date Management
+
+### Productivity Features
+
+* Progress Tracking
+* Active Task Counter
+* Completed Task Counter
+* Search Tasks
+* Filter Tasks
+
+---
+
+## Technology Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Redux Toolkit
+* Axios
+* Vite
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Storage
+
+* JSON-based Local Storage
+
+---
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Start the application
+
+```bash
+npm run dev
+```
+
+4. Open in browser
+
+```text
+http://localhost:3000
+```
+
+---
+
+## Live Demo
+
+Live Application:
+https://project-task-manager-723575320623.asia-southeast1.run.app
+
+---
+
+## Future Enhancements
+
+* PostgreSQL Integration
+* Email-Based OTP Delivery
+* React Native Mobile App
+* Edit Project Feature
+* Edit Task Feature
+* Team Collaboration
+* Push Notifications
+
+---
+
+## Author
+
+Jaliparthi Sravanthi
