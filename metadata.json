@@ -1,0 +1,6 @@
+{
+  "name": "Project & Task Manager",
+  "description": "A collaborative board for defining projects, setting tasks, and tracking goals with OTP-based JWT authentication and Redux state management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

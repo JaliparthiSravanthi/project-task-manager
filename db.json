@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "53xeradfo",
+      "email": "jaliparthisravanthi26@gmail.com",
+      "createdAt": "2026-06-01T11:59:18.789Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "i4a34w9ei",
+      "userId": "53xeradfo",
+      "title": "College Placement Preparation",
+      "description": "Track DSA practice, aptitude preparation, mock interviews, and company applications for campus placements.",
+      "createdAt": "2026-06-01T12:05:54.251Z"
+    },
+    {
+      "id": "g1uu9g5ua",
+      "userId": "53xeradfo",
+      "title": "HerMarket E-Commerce Platform",
+      "description": "Develop an online marketplace that empowers women entrepreneurs to showcase, manage, and sell their products through a secure and user-friendly platfo",
+      "createdAt": "2026-06-01T12:12:48.498Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "67cysr0dy",
+      "projectId": "i4a34w9ei",
+      "userId": "53xeradfo",
+      "title": "Solve 5 LeetCode Problems",
+      "completed": false,
+      "dueDate": "2026-06-09",
+      "createdAt": "2026-06-01T12:09:13.391Z"
+    },
+    {
+      "id": "nqd5gbby5",
+      "projectId": "i4a34w9ei",
+      "userId": "53xeradfo",
+      "title": "Update Resume",
+      "completed": true,
+      "dueDate": "2026-06-03",
+      "createdAt": "2026-06-01T12:10:02.339Z"
+    }
+  ],
+  "otps": []
+}
